@@ -103,6 +103,7 @@ The three roles as described in the intro are the casting assistant, casting dir
 ### DELETE:
 '/actors/{id}'
 - Deletes an actor with the specified id from the database
+
 '/movies/{id}'
 -Deletes a movie with the specified id from the database
 

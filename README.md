@@ -63,7 +63,7 @@ The three roles as described in the intro are the casting assistant, casting dir
 -executive produce: a user with this role has the permissions of the casting director. In addition, this user can add and remove movies from the database.
 
 
-##Endpoints
+## Endpoints
 
 ### GET:
 '/actors'

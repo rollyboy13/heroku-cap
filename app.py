@@ -168,8 +168,8 @@ def create_app(test_config=None):
             get_db().session.rollback()
             abort(422)
 
-            finally:
-                get_db().session.close()
+        finally:
+            get_db().session.close()
 
     # Creates a movie in the db
     # Returns the movie as a dict representation

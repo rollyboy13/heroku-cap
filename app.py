@@ -15,7 +15,7 @@ def create_app(test_config=None):
 
 	#gets all actors in the db
 	#returns json containing an array of the actors
-	@app.route('/actors')
+	@app.route('/actors', methods=['GET'])
 	@requires_auth('get:actors')
 	def get_actors(payload):
 		actors_obj = []
@@ -33,7 +33,7 @@ def create_app(test_config=None):
 
 	#gets all movies in the db
 	#returns json containing an array of the movies
-	@app.route('/movies')
+	@app.route('/movies', methods=['GET'])
 	@requires_auth('get:movies')
 	def get_movies(payload):
 		movies_obj = []
@@ -51,7 +51,7 @@ def create_app(test_config=None):
 
 	#gets an actor with a specific id
 	#returns json containing a dict representation of the actor
-	@app.route('/actors/<int:actor_id>')
+	@app.route('/actors/<int:actor_id>', methods=['GET'])
 	@requires_auth('get:actors')
 	def get_actor(payload, actor_id):
 		try:
@@ -67,7 +67,7 @@ def create_app(test_config=None):
 
 	#gets a movie with a specific id
 	#returns json contanining a dict representation of the movie
-	@app.route('/movies/<int:movie_id>')
+	@app.route('/movies/<int:movie_id>', methods=['GET'])
 	@requires_auth('get:movies')
 	def get_movie(payload, movie_id):
 		try:

@@ -1,26 +1,26 @@
-# URL: 
+## URL: 
 https://casting-app-ru13.herokuapp.com/
 
-# GET:
+## GET:
 /actors
 /movies
 /actors/<id>
 /movies/<id>
 
-# POST:
+## POST:
 /actors
 /movies
 
-# PATCH:
+## PATCH:
 /actors/<id>
 /movies/<id>
 
 
-# DELETE:
+## DELETE:
 /actors/<id>
 /movies/<id>
 
-# USERS CREDENTIALS
+## USERS CREDENTIALS
 token casting-assistant:
 eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IkdVcWc2Rnc2em5lWV9UZjVqTHJldiJ9.eyJpc3MiOiJodHRwczovL2ZzLXJvbGx5LmV1LmF1dGgwLmNvbS8iLCJzdWIiOiJhdXRoMHw1ZjEzMGY2YTY3ZjE5NDAwMTk5Y2M2MTgiLCJhdWQiOiJjYXN0aW5nIiwiaWF0IjoxNTk1MTMwMzkzLCJleHAiOjE1OTUyMTY3OTMsImF6cCI6InZCTUQzWlczNkxwdWVUanA0V1o0eG10TndPQzdmNDdVIiwic2NvcGUiOiIiLCJwZXJtaXNzaW9ucyI6WyJnZXQ6YWN0b3JzIiwiZ2V0Om1vdmllcyJdfQ.lpJ8q0ujkMib2BNPhmaL0y9_9j_edM1iBXtEw8KMC5uiFRrBSKGRlO3M3zrqg2XB8h3uwTFx0Te4yo5_Ut39wd_C-vJkDv56XmpNCoWpEEInL1cuIsG9ircuJRyMId_-pyXM_vAgLpLKU2_ofF52WG7wgwOX59zzVpVowdouuhEwKXGcy2L9DrRvZTmULV2TnxshYHcPuAiQONQs_0Hq_rZXrt_xVbLrHtiOBfXsrLymqdgat_paHZjr0WtLKT6K1mE190jZJeIAbi3HK51DCqWkBzRxfIpdZWLZ8Vm1vB8OOhcMahUNgOwFTsPuaTtFazuKMnEi9HVg6v2-V7CGOg
 

@@ -29,7 +29,7 @@ def create_app(test_config=None):
     @app.route('/', methods=['GET'])
     def home():
         return jsonify({
-            {'message': 'Welcome to the Casting-App'}
+            'message': 'Welcome to the Casting-App'
         })
 
     # Gets all actors in the db
